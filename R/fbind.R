@@ -11,4 +11,9 @@ fbind <- function(a,b) {
 	factor(c(as.character(a), as.character(b)))
 }
 
+
+load_all()
 ##load all ctrl + shift + L (it's under Build tab > More > Load all)
+
+exists("fbind", where = ".GlobalEnv", inherits = FALSE)
+fbind(a, b)
