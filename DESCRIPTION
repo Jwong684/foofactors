@@ -3,8 +3,16 @@ Title: What the Package Does (one line, title case)
 Version: 0.0.0.9000
 Authors@R: person("Jasper", "Wong", email = "jasperwong_123@hotmail.com", role = c("aut", "cre"))
 Description: Attempts at a package for STAT545 at UBC.
-Depends: R (>= 3.3.1)
+Depends:
+    R (>= 3.3.1)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Suggests: testthat
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+Imports:
+    dplyr
+RoxygenNote: 5.0.1
+VignetteBuilder: knitr
