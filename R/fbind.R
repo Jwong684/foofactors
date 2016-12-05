@@ -1,4 +1,4 @@
-library(devtools)
+##library(devtools)
 ##use_git()
 
 (a <- factor(c("character", "hits", "your", "eyeballs")))
