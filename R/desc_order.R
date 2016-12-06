@@ -6,5 +6,5 @@
 #' @export
 #' @examples
 desc_order <- function(x) {
-	factor(dplyr::desc(x))
+	x <- factor(dplyr::desc(x))
 }

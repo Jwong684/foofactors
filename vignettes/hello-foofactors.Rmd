@@ -1,6 +1,6 @@
 ---
-title: "Foofactors thing"
-author: "Jasper Wong"
+title: "Stat545 Foofactor package test"
+author: "Jasper W"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
@@ -47,3 +47,16 @@ The `freq_out()` function returns a frequency table as a well-named `tbl_df`:
 ```{r}
 freq_out(x)
 ```
+
+
+The `desc_order()` function uses dplyr::desc() to change the factor in a descending order.
+```{r}
+desc_order(x)
+```
+
+
+The `factor_asis()` function returns the original factor except with levels reordered so that they appear in the same order as they appear in the vector.
+```{r}
+factor_asis(x)
+```
+
